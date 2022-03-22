@@ -1,0 +1,120 @@
+body {
+    background-color: rgb(232, 242, 251);
+    background-color: #012052;
+    scroll-behavior: smooth;
+}
+
+#date {
+    box-sizing: border-box;
+    margin-top: 3px;
+    padding: 3px 5px;
+    display: flex;
+    justify-content: right;
+    color: wheat;
+    font-family: 'League Spartan', sans-serif;
+}
+
+#heading {
+    /*  background-color: #0b3272;*/
+    border: 1px solid #042c6d;
+    /*  background-color: #0b3272;*/
+    padding: 9px 7px;
+    margin: 1px 1px;
+    border-radius: 8px;
+    text-align: center;
+    /* box-shadow: inset -2px -2px 10px 2px rgb(246, 246, 134); */
+    display: flex;
+    align-items: center;
+}
+
+.sports {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.sportsNews {
+    width: 90vw;
+    display: flex;
+    margin: 1px 5px;
+    padding: 5px 5px;
+    border-bottom: 1px solid #002765;
+    border-right: 1px solid #002765;
+}
+
+.sportsImg {
+    width: 10em;
+    height: 10em;
+    border-radius: 8px;
+}
+
+.news {
+    margin: 2px 4px;
+    background-color: rgb(235, 246, 255);
+    border-radius: 1px;
+    width: 100%;
+    box-shadow: 1px 1px 5px black;
+    display: flex;
+    flex-direction: column;
+}
+
+.sportsHead {
+    background-color: #002765;
+    color: gold;
+    text-align: center;
+    padding: 3px 2px;
+    margin: 4px 3px;
+    border-radius: 4px;
+    box-shadow: inset -1px -1px 7px 2px rgb(246, 246, 134);
+}
+
+.sportsSection {
+    color: black;
+    padding: 7px 7px;
+    font-size: large;
+}
+
+.sportsMore {
+    color: rgb(10, 7, 184);
+    text-decoration: none;
+    background-color: rgb(16, 124, 219);
+    border-radius: 6px;
+    color: white;
+    padding: 1px 4px;
+    box-sizing: border-box;
+    width: auto;
+    margin: auto;
+}
+
+.sportsMore:hover {
+    text-decoration: underline;
+    background-color: rgb(28, 147, 251);
+    color: white;
+    padding: 2px 5px;
+    border-radius: 6px;
+}
+
+.badge {
+    display: inline-block;
+    height: 6%;
+    background-color: #aecaf8;
+    color: black;
+    padding: 7px 7px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+    /* margin: auto; */
+    box-shadow: 2px 2px 8px rgb(194, 216, 236);
+    /* font-family: 'League Spartan', sans-serif; */
+}
+
+@media only screen and (max-width:850px) {
+    .sportsSection {
+        overflow: scroll;
+        padding: 6px 6px;
+    }
+    .sportsImg {
+        margin: auto 1px;
+    }
+}

@@ -1,0 +1,124 @@
+.navbar {
+    flex-direction: column;
+}
+
+.navigation {
+    justify-content: space-around;
+}
+
+.list {
+    margin: 0.3px 0px;
+}
+
+.list a {
+    font-size: 13px;
+}
+
+.hr {
+    margin: 0px 2px;
+}
+
+#search {
+    width: 50%;
+    padding: 2px 2px;
+}
+
+#searchBtn {
+    padding: 1px 0px;
+}
+
+#breaking {
+    flex-direction: column;
+}
+
+#heading {
+    font-size: 24px;
+}
+
+#breakingNews {
+    font-size: 14px;
+    padding: 4px 4px;
+}
+
+#exploreBreaking {
+    font-size: 17px;
+}
+
+.badge {
+    font-size: 30px;
+    padding: auto auto;
+}
+
+.mySlides {
+    height: 17em;
+    width: 97%;
+}
+
+.newsImage {
+    height: 5em;
+    width: 5em;
+    margin: auto;
+}
+
+.livenews {
+    flex-direction: column;
+}
+
+.entertainNews {
+    flex-direction: column;
+}
+
+.businessNews {
+    flex-direction: column;
+}
+
+.newsHeading {
+    font-size: 16px;
+    color: rgb(2, 4, 131);
+    margin: 1px 0px;
+    padding: 1px 1px;
+}
+
+.newsContent {
+    font-size: 14px;
+    font-weight: 450;
+}
+
+.readMore {
+    padding: 1px 2px;
+    margin-top: 2px;
+}
+
+.news-search div {
+    font-size: 13px;
+}
+
+.urlLink {
+    font-size: 15px;
+}
+
+.news {
+    height: 5em;
+    overflow: scroll;
+}
+
+.footer h2 {
+    font-size: 17px;
+    margin-left: 4em;
+}
+
+.email {
+    font-size: 13px;
+    margin-left: 5em;
+}
+
+.call {
+    font-size: 13px;
+    margin-left: 5em;
+}
+
+.footer h5 {
+    font-size: 13px;
+    width: 70%;
+    text-align: center;
+}

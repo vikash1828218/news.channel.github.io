@@ -1,0 +1,122 @@
+body {
+    background-color: rgb(232, 242, 251);
+    background-color: #00235c;
+    scroll-behavior: smooth;
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+#date {
+    box-sizing: border-box;
+    margin-top: 3px;
+    padding: 3px 5px;
+    display: flex;
+    justify-content: right;
+    color: wheat;
+    font-family: 'League Spartan', sans-serif;
+}
+
+#heading {
+    border: 1px solid #042c6d;
+    /*  background-color: #0b3272;*/
+    padding: 9px 7px;
+    margin: 1px 1px;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width:1315px) {
+    #heading {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width:415px) {
+    .description {
+        font-size: 13px;
+        padding: 4px 6px;
+        text-align: center;
+    }
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsContainer {
+    border: 1px solid rgb(47, 66, 151);
+    display: flex;
+    box-sizing: border-box;
+    width: 27em;
+    border-radius: 4px;
+    padding: 5px 5px;
+    height: auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    margin: 2px 3px;
+}
+
+.newsImg {
+    width: 10em;
+    height: 10em;
+    margin-top: 10px 5px;
+    border-radius: 7px;
+}
+
+.error {
+    color: black;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(243, 214, 159);
+    height: 10em;
+    margin-left: 3px;
+}
+
+.description {
+    padding: 3px 5px;
+    background-color: white;
+    color: black;
+    overflow: auto;
+}
+
+.url {
+    color: rgb(10, 7, 184);
+    text-decoration: none;
+    background-color: rgb(16, 124, 219);
+    border-radius: 6px;
+    color: white;
+    padding: 2px 4px;
+}
+
+.url:hover {
+    text-decoration: underline;
+    background-color: rgb(28, 147, 251);
+    color: white;
+    padding: 3px 5px;
+    border-radius: 6px;
+}
+
+.badge {
+    display: inline-block;
+    height: 6%;
+    background-color: #aecaf8;
+    color: black;
+    padding: 7px 7px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+    /* margin: auto; */
+    box-shadow: 2px 2px 8px rgb(194, 216, 236);
+    /* font-family: 'League Spartan', sans-serif; */
+}
