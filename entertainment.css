@@ -144,4 +144,12 @@ body {
     .title {
         margin: auto;
     }
+    .newsImage {
+            width: 10em;
+            height: 10em;
+            margin: auto 2px;
+        }
+    .newsContent {
+          font-size: 12px;
+     }
 }
