@@ -66,7 +66,8 @@ function fetchTopNews() {
                 <div class="news">
                 <h3 class="newsHeading">${articles[1][1].title}</h3>
                 <section class="newsContent">${articles[1][1].content}
-                <a class="readMore" href="${articles[1][1].url}" target="_blank">Read More</a></section>
+               </section>
+                <a class="readMore" href="${articles[1][1].url}" target="_blank">Read More</a>
                 </div>`
 
 
@@ -128,7 +129,8 @@ function fetchEntertainmentNews() {
                     <div class="news">
                     <h3 class="newsHeading">${articles[0][1].title}</h3>
                     <section class="newsContent">${articles[0][1].content}
-                    <a class="readMore" href="${articles[0][1].url}" target="_blank">Read More</a></section>
+                </section>
+                    <a class="readMore" href="${articles[0][1].url}" target="_blank">Read More</a>
                     </div>`
 
 
@@ -172,7 +174,8 @@ function fetchBusinessNews() {
                     <div class="news">
                     <h3 class="newsHeading">${articles[1][1].title}</h3>
                     <section class="newsContent">${articles[1][1].content}
-                    <a class="readMore" href="${articles[1][1].url}" target="_blank">Read More</a></section>
+                   </section>
+                    <a class="readMore" href="${articles[1][1].url}" target="_blank">Read More</a>
                     </div>`
 
 
