@@ -103,10 +103,15 @@ body {
     margin: 0px 3px;
     border-radius: 8px;
     border-bottom: 1px solid aliceblue;
+     width: auto;
+     font-size: 14px;
+     height: auto;
 }
 
 .head {
     background-color: rgb(235, 246, 255);
+    height: inherit;
+    padding: 1px 1px;
 }
 
 .badge {
@@ -127,6 +132,11 @@ body {
     font-size: 16px;
     font-family: 'League Spartan', sans-serif;
     color: rgb(155, 4, 155);
+    width: inherit;
+     word-wrap: break-word;
+     white-space: pre-line;
+     word-break: break-word;
+     text-align: center;
 }
 
 @media only screen and (max-width:1270px) {
