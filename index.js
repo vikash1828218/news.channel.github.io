@@ -3,7 +3,7 @@ function searchDisplay() {
     searchNews.style.display = "none";
 }
 searchDisplay();
-
+const Rooturl = '@Url.Action("~/")'
 // Slide the SLIDESHOW in every 5sec 
 var slideIndex = 0;
 carousel();
@@ -44,7 +44,7 @@ let api = 'f6277503b399424fb61de192041d58e7';
 // function to fetch headlines
 function fetchTopNews() {
     let xhr = new XMLHttpRequest();
-    xhr.open('GET', `http://newsapi.org/v2/top-headlines?country=in&apiKey=${api}`, true);
+    xhr.open('GET', Rooturl+`http://newsapi.org/v2/top-headlines?country=in&apiKey=${api}`, true);
     xhr.onload = function() {
         let putNews = document.querySelector('.livenews');
         if (this.status == 200) {
@@ -116,7 +116,7 @@ fetchTopNews();
 // function to fetch entertainment news
 function fetchEntertainmentNews() {
     let xhrEntertainment = new XMLHttpRequest();
-    xhrEntertainment.open('GET', `http://newsapi.org/v2/top-headlines?country=in&category=entertainment&apiKey=${api}`, true);
+    xhrEntertainment.open('GET',  Rooturl+`http://newsapi.org/v2/top-headlines?country=in&category=entertainment&apiKey=${api}`, true);
     xhrEntertainment.onload = function() {
         let putNews = document.querySelector('.entertainNews');
         if (this.status == 200) {
